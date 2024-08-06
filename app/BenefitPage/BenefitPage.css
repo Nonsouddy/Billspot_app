@@ -2,13 +2,14 @@
     width: 100%;
     max-width: 1348.5px;
     height: auto;
-    padding: 200px 20px 20px;
+    padding: 50px 20px 20px;
     background: var(--natural-color);
     box-sizing: border-box;
 }
 
 .Benefits_main {
     text-align: center;
+  
 }
 
 .BenefitsTopText {
@@ -44,6 +45,7 @@
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .Card {
@@ -151,7 +153,7 @@
     .BenefitsTopText {
         font-size: 1.75rem;
     }
-
+  
     .BenefitsTopTextSmall {
         font-size: 0.875rem;
     }

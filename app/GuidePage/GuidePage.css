@@ -1,4 +1,5 @@
 .GuideMain {
+    background: var(--NavBar-active-font-color);
     width: 100%;
     max-width: 1348.5px;
     height: auto;
@@ -6,14 +7,15 @@
 }
 
 .Guide {
-    background: var(--NavBar-active-font-color);
+   
     position: relative;
+    text-align: center;
     padding: 20px; /* Add padding for inner spacing */
 }
 
 .GetStarted {
     width: 100%;
-    max-width: 447px;
+    /* max-width: 447px; */
     height: auto;
     padding: 20px 0;
     font-family: 'Inter';
@@ -28,7 +30,7 @@
 
 .Discover {
     width: 100%;
-    max-width: 660px;
+    /* max-width: 660px; */
     height: auto;
     padding: 10px 0;
     font-family: 'Inter';
@@ -43,7 +45,8 @@
 .ttrt {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    padding-top: 50px;
+    gap: 100px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
@@ -65,7 +68,8 @@
     width: 100%;
     max-width: 561px;
     height: auto;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    padding-left: 200px;
+    /* flex-wrap: wrap; Allow wrapping on smaller screens */
 }
 
 .number {
@@ -76,12 +80,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .number div {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 1.2;
     color: var(--Primary-color);
@@ -172,6 +177,10 @@
     .GetStarted {
         font-size: 1.25rem;
     }
+    .GetStart_section {
+        width: 100%;
+    }
+       
 
     .Discover {
         font-size: 0.875rem;

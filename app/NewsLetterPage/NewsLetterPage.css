@@ -52,10 +52,11 @@
     align-items: center;
     padding: 2px 2px 2px 18px;
     width: 100%;
-    max-width: 563px;
+    max-width: 600px;
     height: 64px;
     border: 1px solid var(--Button-background-color);
     border-radius: 32px;
+   
 }
 
 .inputSection input {
@@ -72,13 +73,16 @@
     padding: 18px 25px;
     background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2) 99.86%);
     border-radius: 0 32px 32px 0; /* Round right corners */
-    color: white;
+    color: var(--natural-color);
     font-weight: 600;
     font-size: 1rem; /* 16px */
     border: none;
     cursor: pointer;
+    width: 200px;
+    height: 64px;
     transition: background-color 0.3s ease;
 }
+
 
 .inputSection button:hover {
     background-color: var(--Button-background-color-hover); /* Add a darker shade for hover */
@@ -108,15 +112,17 @@
         flex-direction: column;
         gap: 10px;
         padding: 10px;
+        width: 100px;
     }
 
     .inputSection input {
         width: 100%;
-        border-radius: 32px; /* Make the input fully rounded for smaller screens */
+        /* width: 500px; */
+         border-radius: 32px;   /* Make the input fully rounded for smaller screens */
     }
 
     .inputSection button {
-        width: 100%;
+        /* width: 100px; */
         border-radius: 32px; /* Make the button fully rounded for smaller screens */
     }
 }
@@ -137,12 +143,13 @@
     }
 
     .inputSection {
-        padding: 10px;
+        padding: 10px ;
     }
 
     .inputSection input {
         font-size: 0.875rem; /* 14px */
         padding: 14px;
+        width: 100%;
     }
 
     .inputSection button {

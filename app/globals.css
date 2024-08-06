@@ -50,10 +50,6 @@ body, html{
 
 
 
-.y{
-  background-color: red;
-}
-
 /* Cober blur */
 .body{
 position: absolute;
@@ -109,50 +105,50 @@ body, html {
   margin-bottom: 2rem;
 }
 
-.FeatureSection {
+/* .FeatureSection {
   width: 100%;
   background: var(--natural-color);
   padding: 6rem 1rem 4rem;
   box-sizing: border-box;
-}
+} */
 
-.Explore {
+/* .Explore {
   font-size: 2.25rem;
   line-height: 44px;
   text-align: center;
   color: var(--Secondary-color);
   margin-bottom: 2rem;
-}
+} */
 
-.Explore span {
+/* .Explore span {
   color: var(--Button-background-color);
-}
+} */
 
-.ExploreSmallText {
+/* .ExploreSmallText {
   font-size: 1.125rem;
   line-height: 22px;
   text-align: center;
   color: var(--NavBar-inactive-font-color);
   max-width: 800px;
   margin: 0 auto 4rem;
-}
+} */
 
-.Feature_fill {
+/* .Feature_fill {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-}
+} */
 
-.Feature_offer {
+/* .Feature_offer {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 500px;
   width: 100%;
-}
+} */
 
-.Feature_card {
+/* .Feature_card {
   width: 100%;
   max-width: 400px;
   background: #fff;
@@ -163,17 +159,17 @@ body, html {
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
+} */
 
-.Card_img {
+/* .Card_img {
   width: 100%;
   height: auto;
   max-width: 350px;
   border-radius: 8px;
   margin-bottom: 1rem;
-}
+} */
 
-.Feature_card_offer {
+/* .Feature_card_offer {
   font-size: 1.5rem;
   color: var(--Secondary-color);
   margin-bottom: 0.5rem;
@@ -189,10 +185,10 @@ body, html {
   color: var(--Button-background-color);
   margin-top: 4rem;
   text-align: center;
-}
+} */
 
 /* Responsive Adjustments */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .HeroTitle {
       font-size: 2.5rem;
   }
@@ -221,9 +217,9 @@ body, html {
   .Feature_More {
       font-size: 1.25rem;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .HeroSection {
       padding: 6rem 1rem 3rem;
   }
@@ -257,7 +253,7 @@ body, html {
   .Feature_More {
       font-size: 1rem;
   }
-}
+} */
 
 
 

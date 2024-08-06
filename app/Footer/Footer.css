@@ -19,6 +19,7 @@
     max-width: 1348.5px;
     width: 100%;
     padding-top: 20px;
+    padding-left: calc(50% - 1051px/2 - 0.5px);
 }
 
 .FooterAbout {

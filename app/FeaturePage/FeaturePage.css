@@ -1,83 +1,138 @@
 .featuresSection {
-    padding: 40px 20px;
-    text-align: center;
-  }
+  padding: 40px 20px;
+  text-align: center;
   
-  .headerContainer {
-    margin-bottom: 40px;
-  }
+}
+
+.headerContainer {
+  margin-bottom: 40px;
+}
+
+.featuresHeader {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+width: 126px;
+height: 27px;
+margin-left: calc(45% - 100px/2);
+top: 65px;
+background: linear-gradient(89.31deg, var(--Button-background-color)1.69%, var(--Button-background-color2) 99.86%);
+border-radius: 25px;
+}
+
+.mainTitle {
+  width: 100%;
+  height: 44px;
+  padding-left: calc(50% - 754px/2 - 1px);
+  padding-top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--Secondary-color);
+}
+
+.underline {
+  color: var(--Button-background-color);
+}
+
+.mainDescription {
+    /* Manage all your financial transactions in one place. From money transfers to bill payments, Billspot covers all your needs. */
+width: 100%;
+height: 44px;
+/* padding-left: calc(50% - 581px/2 - 0.5px); */
+margin-top: -20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+color: var(--NavBar-inactive-font-color);
+}
+
+.featuresGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  /* width: 100px; */
+  padding-left: 215.50px;
+  width: 100%;
+  flex: 1 1 300px;
+}
+
+.featureItem {
+  flex: 1 1 300px;
+  /* max-width: 320px; */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.featureItem:hover {
+  transform: scale(1.05);
+}
+.Feature_card_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 485px;
+  height: 94px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Mark {
+  /* Vector */
+  width: 196px !important; 
+  padding-left: 100px;
+  margin-top: -20px;
+  color: var(--Secondary-color);
+}
   
-  .featuresHeader {
-    font-size: 16px;
-    font-weight: bold;
-    color: #1a73e8;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
   
-  .mainTitle {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .underline {
-    text-decoration: underline;
-    color: #1a73e8;
-  }
-  
-  .mainDescription {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 50px;
-  }
-  
-  .featuresGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 40px;
-  }
-  
-  .featureItem {
-    flex: 1 1 300px;
-    max-width: 320px;
-    text-align: center;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  .featureItem:hover {
-    transform: scale(1.05);
-  }
-  
-  .featureItem h2 {
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-  
-  .featureItem p {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .moreFeatures a {
-    display: inline-block;
-    margin-top: 30px;
-    font-size: 18px;
-    color: #1a73e8;
-    text-decoration: none;
-  }
-  
-  .moreFeatures a:hover {
-    text-decoration: underline;
-  }
+
+
+.featureItem h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.featureItem p {
+  font-size: 16px;
+  color: #666;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.moreFeatures a {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.moreFeatures a:hover {
+  text-decoration: underline;
+}
