@@ -1,64 +1,64 @@
-import Image from 'next/image'
-import '../page.css'
-import FImg1 from '../Image/FImg1.png'
-import FImg2 from '../Image/FImg2.png'
-import FImg3 from '../Image/FImg3.png'
-import FImg4 from '../Image/FImg4.png'
-import Group1 from '../Svgs/Group 1.svg'
+import React from 'react';
+import Image from 'next/image';
+import './FeaturePage.css';
 
-const Feature = () => {
+import phoneImage from '../Image/phoneImage.png';
+import cashbackImage from '../Image/cashbackImage.png';
+import airtimeToCashImage from '../Image/airtimeToCashImage.png';
+import bettingImage from '../Image/bettingImage.png';
+
+export default function Feature() {
   return (
-    <section className='FeatureSection'>
-        <div>
-          <div className='Feature'>Features</div>
-          <div className='Explore'>Explore your Experience with <span>Billspot App</span> </div>
-          <Image className='Mark' src={Group1} alt='' />
-
-          <div className='ExploreSmallText'>Manage all your financial transactions in one place. From money transfers to bill payments, Billspot covers all your needs.</div>
-          <div className='Feature_fill'>
-            <div className='Feature_offer'>
-              <div className='Feature_card'>
-                <Image className='Card_img' src={FImg2} alt='' />
-                <div className='Feature_card_details'>
-                  <div className='Feature_card_offer'>Airtime Recharge</div>
-                  <div className='Feature_card_offer_step'>Easily recharge your mobile phone with just a few taps. Stay connected without the hassle, anytime, anywhere.</div>
-                </div>
-              </div>
-              <div className='Feature_card'>
-                <Image className='Card_img1' src={FImg3} alt='' />
-                <div className='Feature_card_details'>
-                  <div className='Feature_card_offer'>Airtime to Cash</div>
-                  <div className='Feature_card_offer_step'>Turn your excess airtime into cash instantly. Flexible and convenient, our app lets you convert airtime to money with ease.</div>
-                </div>
-              </div>
-
-            </div>
-            <div className='Feature_offer'>
-
-              <div className='Feature_card_2'>
-                <Image className='Card_img' src={FImg1} alt='' />
-                <div className='Feature_card_details'>
-                  <div className='Feature_card_offer'>Data Recharge</div>
-                  <div className='Feature_card_offer_step'>Top up your data effortlessly to stay online and connected. Enjoy fast and reliable internet on the go.</div>
-                </div>
-              </div>
-              <div className='Feature_car'>
-                <Image className='Card_img1' src={FImg4} alt='' />
-                <div className='Feature_card_details'>
-                  <div className='Feature_card_offer'>Betting with ease</div>
-                  <div className='Feature_card_offer_step'>Place bets on your favorite sports and games directly through the app. Experience the thrill and excitement of betting at your fingertips.</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div className='Feature_More'>+10 More Features</div>
-
-
+    <section className='featuresSection'>
+      <div className='headerContainer'>
+        <div className='featuresHeader'>
+          Features
         </div>
-      </section>
-    
-  )
-}
+        <h1 className='mainTitle'>
+          Explore your Experience with <span className='underline'>Billspot App</span>
+        </h1>
+        <p className='mainDescription'>
+          Manage all your financial transactions in one place. From money transfers to bill payments, Billspot covers all your needs.
+        </p>
+      </div>
 
-export default Feature
+      <div className='featuresGrid'>
+        <div className='featureItem'>
+          <Image src={phoneImage} alt="Airtime Recharge" />
+          <h2>Airtime Recharge</h2>
+          <p>
+            Easily recharge your mobile phone with just a few taps. Stay connected without the hassle, anytime, anywhere.
+          </p>
+        </div>
+
+        <div className='featureItem'>
+          <Image src={cashbackImage} alt="Data Recharge" />
+          <h2>Data Recharge</h2>
+          <p>
+            Top up your data effortlessly to stay online and connected. Enjoy fast and reliable internet on the go.
+          </p>
+        </div>
+
+        <div className='featureItem'>
+          <Image src={airtimeToCashImage} alt="Airtime to Cash" />
+          <h2>Airtime to Cash</h2>
+          <p>
+            Turn your excess airtime into cash instantly. Flexible and convenient, our app lets you convert airtime to money with ease.
+          </p>
+        </div>
+
+        <div className='featureItem'>
+          <Image src={bettingImage} alt="Betting with ease" />
+          <h2>Betting with ease</h2>
+          <p>
+            Place bets on your favorite sports and games directly through the app. Experience the thrill and excitement at your fingertips.
+          </p>
+        </div>
+      </div>
+
+      <div className='moreFeatures'>
+        <a href="#">+10 More Features</a>
+      </div>
+    </section>
+  );
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../page.css'
+import './NewsLetterPage.css'
 
 function NewsPage() {
   return (

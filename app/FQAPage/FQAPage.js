@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
+import './FAQPage.css'
 import SearchBar from '../SearchBar'
 import FAQs from '../FAQs'
 import { faqs } from '../Data'
@@ -13,7 +14,7 @@ function FQAPage() {
             <div>
                 <div className='FQA_Title'>
                     <div className='FQA_bigText'>Frequently Asked Questions (FAQ)</div>
-                    <div className='FQA_smallText'> Get quick answers to frequently asked questions, don't see what you are looking for reach out to support.</div>
+                    <div className='FQA_smallText'> Get quick answers to frequently asked questions, don&apos;t see what you are looking for reach out to support.</div>
                 </div>
                 <div className='FQA_contact'>
                     <a href=''>

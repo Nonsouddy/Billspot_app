@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import '../page.css'
+import './Footer.css'
 import Logo2 from '../Svgs/Logo2.svg'
 import Apple from '../Svgs/Apple.svg'
 import Google from '../Svgs/Google.svg'

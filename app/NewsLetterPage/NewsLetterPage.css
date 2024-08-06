@@ -1,0 +1,152 @@
+.Newsletter {
+    width: 100%;
+    max-width: 1348.5px;
+    padding: 40px 20px;
+    background: var(--natural-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the Newsletter section */
+}
+
+.Newsletter_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.NewsletterTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.StayUpdated {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2rem; /* 36px */
+    line-height: 44px;
+    color: var(--Secondary-color);
+    margin: 0;
+}
+
+.StayUpdatedPara {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem; /* 18px */
+    line-height: 22px;
+    color: var(--NavBar-inactive-font-color);
+    margin: 0;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px 2px 18px;
+    width: 100%;
+    max-width: 563px;
+    height: 64px;
+    border: 1px solid var(--Button-background-color);
+    border-radius: 32px;
+}
+
+.inputSection input {
+    width: 100%;
+    padding: 18px 10px;
+    font-size: 1rem; /* 16px */
+    outline: none;
+    border: none;
+    border-radius: 32px 0 0 32px; /* Round left corners */
+    background-color: transparent;
+}
+
+.inputSection button {
+    padding: 18px 25px;
+    background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2) 99.86%);
+    border-radius: 0 32px 32px 0; /* Round right corners */
+    color: white;
+    font-weight: 600;
+    font-size: 1rem; /* 16px */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inputSection button:hover {
+    background-color: var(--Button-background-color-hover); /* Add a darker shade for hover */
+}
+
+.ttet {
+    padding-left: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .Newsletter {
+        padding: 20px;
+    }
+
+    .StayUpdated {
+        font-size: 1.5rem; /* 24px */
+        line-height: 32px;
+    }
+
+    .StayUpdatedPara {
+        font-size: 1rem; /* 16px */
+        line-height: 20px;
+    }
+
+    .inputSection {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .inputSection input {
+        width: 100%;
+        border-radius: 32px; /* Make the input fully rounded for smaller screens */
+    }
+
+    .inputSection button {
+        width: 100%;
+        border-radius: 32px; /* Make the button fully rounded for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .Newsletter {
+        padding: 20px 10px;
+    }
+
+    .StayUpdated {
+        font-size: 1.25rem; /* 20px */
+        line-height: 28px;
+    }
+
+    .StayUpdatedPara {
+        font-size: 0.875rem; /* 14px */
+        line-height: 18px;
+    }
+
+    .inputSection {
+        padding: 10px;
+    }
+
+    .inputSection input {
+        font-size: 0.875rem; /* 14px */
+        padding: 14px;
+    }
+
+    .inputSection button {
+        font-size: 0.875rem; /* 14px */
+        padding: 14px;
+    }
+}

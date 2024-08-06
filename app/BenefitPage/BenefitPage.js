@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import '../page.css'
+import './BenefitPage.css'
 import rafiki from '../Image/rafiki.png'
 import Socials from '../Image/Socials.png'
 import MoneyIncome from '../Image/MoneyIncome.png'

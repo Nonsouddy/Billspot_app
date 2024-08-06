@@ -1,0 +1,193 @@
+.GuideMain {
+    width: 100%;
+    max-width: 1348.5px;
+    height: auto;
+    padding: 20px; /* Add padding for better spacing on smaller screens */
+}
+
+.Guide {
+    background: var(--NavBar-active-font-color);
+    position: relative;
+    padding: 20px; /* Add padding for inner spacing */
+}
+
+.GetStarted {
+    width: 100%;
+    max-width: 447px;
+    height: auto;
+    padding: 20px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--natural-color);
+}
+
+.Discover {
+    width: 100%;
+    max-width: 660px;
+    height: auto;
+    padding: 10px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--Default-color);
+}
+
+.ttrt {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.GetStart_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 68px;
+    width: 100%;
+    max-width: 561px;
+    padding: 20px;
+}
+
+.Steps {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 42px;
+    width: 100%;
+    max-width: 561px;
+    height: auto;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.number {
+    width: 60px;
+    height: 60px;
+    background: var(--natural-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--Primary-color);
+}
+
+.Frame-45 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    width: 100%;
+    max-width: 454px;
+}
+
+.createAccount {
+    width: 100%;
+    max-width: 454px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--natural-color);
+}
+
+.Sign {
+    width: 100%;
+    max-width: 454px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: var(--Default-color);
+}
+
+.GuideImg {
+    width: 100%;
+    max-width: 339px;
+    height: auto;
+    padding-left: 0;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .GetStarted, .Discover {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .ttrt {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .GetStart_section {
+        padding-left: 1rem;
+        padding-top: 1rem;
+        max-width: 100%;
+    }
+
+    .Steps {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .createAccount {
+        font-size: 1.25rem;
+    }
+
+    .Sign {
+        font-size: 0.875rem;
+    }
+
+    .GuideImg {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .GetStarted {
+        font-size: 1.25rem;
+    }
+
+    .Discover {
+        font-size: 0.875rem;
+    }
+
+    .number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+
+    .createAccount {
+        font-size: 1rem;
+    }
+
+    .Sign {
+        font-size: 0.875rem;
+    }
+}

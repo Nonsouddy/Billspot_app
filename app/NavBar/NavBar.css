@@ -1,0 +1,196 @@
+/* General NavBar Styles */
+.NavBar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    padding: 10px 0;
+    background: var(--NavBar-background-color);
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Navbar container */
+.NavBar_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    column-gap: 13rem;
+    position: relative;
+    width: 100%;
+    max-width: 1133px;
+    margin: 0 auto;
+}
+
+/* Navbar Links and Button */
+.NavBar_Links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: auto;
+    height: 50px;
+}
+
+.NavBar_Link_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: auto;
+    height: 32px;
+}
+
+.Home a,
+.features a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--NavBar-active-font-color);
+}
+
+.Home a {
+    width: 51px;
+    height: 32px;
+}
+
+.features a {
+    width: 75px;
+    height: 32px;
+    color: var(--NavBar-inactive-font-color);
+}
+
+/* Navbar button */
+.NavBar_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 18px;
+    gap: 10px;
+    width: 142px;
+    height: 50px;
+    background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2) 99.86%);
+    border-radius: 33px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none; /* Hide the hamburger menu by default */
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 10px; /* Space between the logo and hamburger */
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Dropdown menu when hamburger is clicked */
+.NavBar_Links.open {
+    display: block; /* Show the menu when open */
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: black; /* Black background */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .NavBar_section {
+        column-gap: 5rem;
+    }
+
+    .NavBar_Links {
+        gap: 20px;
+    }
+
+    .NavBar_button {
+        width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .NavBar_section {
+        flex-direction: row;
+        justify-content: flex-start; /* Align items to start */
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .NavBar_Links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        display: none; /* Hide the menu by default on small screens */
+        background: black; /* Black background for the dropdown */
+        position: absolute;
+        top: 80px;
+        left: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .NavBar_Links.open {
+        display: block; /* Show the menu when open */
+    }
+
+    /* .features a {
+        color: #fff;
+    } */
+
+    .NavBar_button {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu on small screens */
+        margin-left: auto;
+    }
+
+    .NavBar_logo {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .NavBar_section {
+        justify-content: space-between; /* Ensure logo and hamburger are on opposite ends */
+    }
+
+    .Home a,
+    .features a {
+        font-size: 16px;
+        width: auto;
+        color: #fff;
+    }
+
+    .NavBar_button {
+        padding: 10px 14px;
+    }
+}
+
