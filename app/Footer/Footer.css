@@ -15,7 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 50px;
+    gap: 100px;
     max-width: 1348.5px;
     width: 100%;
     padding-top: 20px;
@@ -43,7 +43,7 @@
 }
 
 .FooterAboutText {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -95,7 +95,7 @@
 }
 
 .FooterLink a {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
@@ -104,16 +104,16 @@
     transition: color 0.3s ease;
 }
 
-.FooterLink a:hover {
+/* .FooterLink a:hover {
     color: var(--Button-background-color);
-}
+} */
 
 .Footerfoot {
     width: 100%;
     max-width: 1051px;
     padding-top: 20px;
     margin-top: 50px;
-    border-top: 1px solid #61B9D7;
+    border-top: 1px solid var(--Foot-color);
 }
 
 .hr {

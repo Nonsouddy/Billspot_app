@@ -14,7 +14,7 @@ function FQAPage() {
             <div>
                 <div className='FQA_Title'>
                     <div className='FQA_bigText'>Frequently Asked Questions (FAQ)</div>
-                    <div className='FQA_smallText'> Get quick answers to frequently asked questions, don&apos;t see what you are looking for reach out to support.</div>
+                    <div className='FQA_smallText'> Get quick answers to frequently asked questions, don't see what you are looking for reach out to support.</div>
                 </div>
                 <div className='FQA_contact'>
                     <a href=''>
@@ -34,13 +34,14 @@ function FQAPage() {
                             })
                         }
                     </div>
-                    <div className='More_section'>
+                    
+
+                </div>
+                <div className='More_section'>
                         <div>More</div>
                         <div><AiFillCaretDown /></div>
 
                     </div>
-
-                </div>
             </div>
         </section>
     )

@@ -1,7 +1,8 @@
 .Newsletter {
     width: 100%;
     max-width: 1348.5px;
-    padding: 40px 20px;
+    height: 500px;
+   
     background: var(--natural-color);
     display: flex;
     justify-content: center;
@@ -18,6 +19,8 @@
     max-width: 600px;
     padding: 0px 20px;
     text-align: center;
+    place-content: center;
+    padding-left: 50px;
 }
 
 .NewsletterTitle {
@@ -45,31 +48,34 @@
     color: var(--NavBar-inactive-font-color);
     margin: 0;
 }
+.Sub_section{
+    display: flex;
+    flex-direction: row;
+   
+}
 
 .inputSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 2px 2px 18px;
-    width: 100%;
+   width: 500px;
     max-width: 600px;
     height: 64px;
-    border: 1px solid var(--Button-background-color);
     border-radius: 32px;
-   
+    /* padding: 2px 2px 2px 18px; */
+    border: 1px solid var(--Button-background-color);
 }
 
 .inputSection input {
-    width: 100%;
-    padding: 18px 10px;
+   padding: 18px 10px;
     font-size: 1rem; /* 16px */
     outline: none;
     border: none;
-    border-radius: 32px 0 0 32px; /* Round left corners */
     background-color: transparent;
 }
 
-.inputSection button {
+
+.Sub_section button {
     padding: 18px 25px;
     background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2) 99.86%);
     border-radius: 0 32px 32px 0; /* Round right corners */
@@ -82,14 +88,8 @@
     height: 64px;
     transition: background-color 0.3s ease;
 }
-
-
-.inputSection button:hover {
-    background-color: var(--Button-background-color-hover); /* Add a darker shade for hover */
-}
-
 .ttet {
-    padding-left: 0;
+    margin-left: -70px;
 }
 
 /* Responsive Styles */
@@ -142,18 +142,29 @@
         line-height: 18px;
     }
 
+    .Sub_section {
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: row;
+    }
     .inputSection {
-        padding: 10px ;
+        width: 300px;
+        max-width: 300px;
+        height: 64px;
+       
+       
+        
     }
 
-    .inputSection input {
+    .Sub_section input {
         font-size: 0.875rem; /* 14px */
-        padding: 14px;
-        width: 100%;
+        
     }
 
-    .inputSection button {
+    .Sub_section button {
         font-size: 0.875rem; /* 14px */
         padding: 14px;
+        width: 100px;
+        height:  64px;
     }
 }

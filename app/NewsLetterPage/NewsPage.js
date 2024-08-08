@@ -10,11 +10,13 @@ function NewsPage() {
         <div className='StayUpdated'>Stay Updated with Billspot</div>
         <div className='StayUpdatedPara' >Stay in the loop with all things Billspot! Subscribe to our newsletter and be the first to know about:</div>
       </div>
+      <div className='Sub_section'>
       <div className='inputSection'>
         <input
           type="email"
           placeholder="enter your email"
         />
+        </div>
         <div className='ttet'>
           <button className='inputSectionButton'
             type='submit'> Subscribe </button>

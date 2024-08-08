@@ -51,7 +51,7 @@
     background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2) 99.86%);
     border-radius: 25px;
     text-decoration: none;
-    color: white;
+    color: var(--natural-color);
     font-family: 'Inter', sans-serif;
 }
 
@@ -70,14 +70,17 @@
     font-size: 1.3rem; /* 20.8px */
     line-height: 1.563rem; /* 25px */
     color: var(--Secondary-color);
+   text-align: center;
+   margin-top: -40px;
 }
 
 .Questions {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 27px;
     margin-top: 40px;
+    padding-left: 298px;
 }
 
 .faq_wrapper {
@@ -86,7 +89,8 @@
     align-items: center;
     padding: 20px;
     gap: 25px;
-    width: 100%;
+    /* width: 748px; */
+    width: 75%;
     max-width: 800px;
     border-bottom: 1px solid rgba(97, 185, 215, 0.42);
     border-radius: 12px;
@@ -103,7 +107,8 @@
 }
 
 .Answers {
-    width: 100%;
+    width: 75%;
+    /* width: 748px; */
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.125rem; /* 18px */
@@ -200,10 +205,24 @@
     .FQA_help {
         font-size: 1rem; /* 16px */
         line-height: 1.25rem; /* 20px */
+        padding-top:  1.25rem;
+    }
+    .Questions{
+        margin-left:0px;
+        padding-left: 0px;
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+    }
+    .Que{
+        font-size: 1rem;
+        /* width: 600px; */
+
     }
 
-    .faq_wrapper, .Answers {
+    .Answers {
         padding: 10px;
+        font-size: 1rem;
     }
 
     .More_section {

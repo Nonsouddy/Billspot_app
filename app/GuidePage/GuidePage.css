@@ -1,94 +1,126 @@
 .GuideMain {
-    background: var(--NavBar-active-font-color);
-    width: 100%;
-    max-width: 1348.5px;
+    width: 1348.5px;
     height: auto;
-    padding: 20px; /* Add padding for better spacing on smaller screens */
+    /* padding-top: 200px; */
 }
 
 .Guide {
-   
+    /* Guide */
+    background: var(--NavBar-active-font-color);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
     position: relative;
-    text-align: center;
-    padding: 20px; /* Add padding for inner spacing */
 }
 
 .GetStarted {
+    /* Get started with our App */
     width: 100%;
-    /* max-width: 447px; */
-    height: auto;
-    padding: 20px 0;
+    height: 44px;
+    padding-left: calc(50% - 447px/2 - 316.5px);
+    padding-top: 89px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 2rem;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--natural-color);
 }
 
 .Discover {
-    width: 100%;
-    /* max-width: 660px; */
-    height: auto;
-    padding: 10px 0;
+    /* Discover a world of possibilities and take charge of your bill payments with our user-friendly tools and customized solutions. */
+
+    /* position: relative; */
+    width: 55%;
+    height: 44px;
+    padding-left: calc(50% - 660px/2 - 210px);
+    margin-top: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.2;
-    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
     color: var(--Default-color);
 }
 
 .ttrt {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
-    gap: 100px;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-between;
+    width: 90%;
+    /* background-color: red; */
 }
 
 .GetStart_section {
+
+
+    /* Section */
+
+    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 68px;
-    width: 100%;
-    max-width: 561px;
-    padding: 20px;
+    width: 561px;
+    height: 391px;
+    padding-left: 221px;
+    padding-top: 200px;
 }
 
 .Steps {
+    /* Steps */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 0px;
     gap: 42px;
-    width: 100%;
-    max-width: 561px;
-    height: auto;
-    padding-left: 200px;
-    /* flex-wrap: wrap; Allow wrapping on smaller screens */
+    width: 561px;
+    height: 85px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
+
+/* .number {
+    width: 60px;
+    height: 60px;
+    background: var(--natural-color);
+    border-radius: 10.1205px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } */
 
 .number {
     width: 60px;
     height: 60px;
     background: var(--natural-color);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.number div {
+    border-radius: 10.1205px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* position: absolute; */
+    /* width: 17px;
+    height: 42px; */
+    padding-left: 20.96px;
+    padding-top: 9.4px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 1.2;
+    font-weight: 600;
+    font-size: 34.6988px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--Primary-color);
 }
 
@@ -96,44 +128,66 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0px;
     gap: 2px;
-    width: 100%;
-    max-width: 454px;
+    width: 454px;
+    height: 85px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .createAccount {
-    width: 100%;
-    max-width: 454px;
+    /* Create an Account */
+    width: 454px;
+    height: 39px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1.2;
+    font-size: 32px;
+    line-height: 39px;
     letter-spacing: 0.02em;
     color: var(--natural-color);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .Sign {
-    width: 100%;
-    max-width: 454px;
+    /* Sign up with your email or phone number. Follow the easy registration process to enter your details. */
+    width: 454px;
+    height: 44px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.2;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
     color: var(--Default-color);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .GuideImg {
-    width: 100%;
-    max-width: 339px;
-    height: auto;
-    padding-left: 0;
+    /* Muckup */
+    /* position: relative; */
+    width: 339px;
+    height: 650px;
+    /* padding-left: 50px; */
+    /* top: 203px; */
+
 }
+
 
 /* Media Queries for responsiveness */
 @media (max-width: 1200px) {
-    .GetStarted, .Discover {
+
+    .GetStarted,
+    .Discover {
         padding-left: 1rem;
         font-size: 1.5rem;
     }
@@ -174,13 +228,14 @@
 }
 
 @media (max-width: 768px) {
-    .GetStarted {
+    /* .GetStarted {
         font-size: 1.25rem;
     }
+
     .GetStart_section {
         width: 100%;
     }
-       
+
 
     .Discover {
         font-size: 0.875rem;
@@ -198,5 +253,52 @@
 
     .Sign {
         font-size: 0.875rem;
+    } */
+}
+@media (max-width: 480px) {
+    .GetStarted {
+        font-size: 1.25rem;
+        height: auto;
+    }
+
+    .GetStart_section {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+
+    .Discover {
+        font-size: 1rem;
+        width: 450px;
+    }
+
+    .number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        justify-content: center;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    .Steps{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .createAccount {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .Sign {
+        font-size: 1rem;
+        width: 300px;
+    }
+    .GuideImg{
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 50px;
     }
 }

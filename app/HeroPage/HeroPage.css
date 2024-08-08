@@ -4,35 +4,41 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #f0f4f8, #e6eff7);
+    background-image: url("../Image/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-size: auto; */
     position: relative;
     overflow: hidden;
-    padding: 20px;
-    margin-top: 80px; /* Creates space below the navbar */
+   
+   
+    
 }
 
 .hero::before, 
 .hero::after {
     content: '';
     position: absolute;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    z-index: 1; /* Keeps the shapes behind other content */
+    /* border-radius: 50%; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    z-index: 1;
+     /* Keeps the shapes behind other content */
 }
 
 .hero::before {
     width: 400px;
     height: 400px;
-    top: -100px;
-    left: -100px;
+    /* top: -100px;
+    left: -100px; */
 }
 
-.hero::after {
+/* .hero::after {
     width: 600px;
     height: 600px;
     bottom: -200px;
     right: -200px;
-}
+} */
 
 .heroContent {
     display: flex;
@@ -41,65 +47,232 @@
     max-width: 1200px;
     width: 100%;
     z-index: 2;
-    flex-wrap: wrap; /* Wraps the content on smaller screens */
+    padding-left: 100px;
+   /* flex-wrap: wrap; *//* Wraps the content on smaller screens */
 }
 
 .textContent {
     max-width: 600px;
     flex: 1;
-    margin-bottom: 20px;
+    padding-top: 200px;
+    /* background-color: red; */
 }
+/* .hero_left{
+    side info
+
+Auto layout
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: relative;
+width: 594px;
+height: 282px;
+padding-left: 100px;
+padding-top: 244px;
+margin-bottom: 20px;
+
+
+} */
+
+
 
 .badge1 {
-    display: inline-block;
-    background-color: #0d6efd;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 159px;
+height: 27px;
+background: linear-gradient(89.31deg, #6175FC 1.69%, #4CB2F8 99.86%);
+border-radius: 25px;
+color: var(--natural-color);
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 17px;
+margin-bottom: 0;
+
 }
 
 h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 10px;
+    /* Pay Bills Anytime, Anywhere Effortlessly */
+
+width: 565px;
+height: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+margin-top: -4px;
+line-height: 58px;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.02em;
+color: var(--NavBar-active-font-color);
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
 
 .highlight {
-    color: #00aaff;
+    color: var(--Hero-boldText-color);
 }
 
 p {
-    font-size: 1.125rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+   /* Discover endless possibilities and take charge of your finances with our easy-to-use App and personalized services. */
+
+width: 500px;
+height: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-top: -30px;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+color: var( --NavBar-inactive-font-color);
+
+
 }
 
-.appButtons img {
-    width: 150px;
-    margin-right: 10px;
+.appButtons {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 18px;
+width: 272.66px;
+height: 40px;
+
+}
+.appButtons {
+width: 119.66px;
+height: auto;
+
+
 }
 
 .subtext {
-    font-size: 0.875rem;
-    color: #666;
+   /* Join over +10K users across the globe to make bill payment effortlessly. */
+
+/* position: relative; */
+width: 100%;
+height: 19px;
+padding-left: 100px;
+padding-top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #02224B;
+
+
 }
 
-.stats {
+
+.hero_offer{
+    /* Offers */
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    flex-wrap: wrap;
-}
-
-.stat {
-    text-align: center;
-    flex: 1;
+    flex-direction: row;
+    /* align-items: center; */
+    padding: 0px;
+    gap: 24px;
+    /* position:relative; */
+    width: 610px;
+    height: auto;
+   padding-left:80px;
+    margin-top: 120px;
+    padding-bottom: 50px;
+   
+  }
+  
+  .fast {
+    /* Fast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 4px;
+    width: 100%;
+    height: auto;
     min-width: 150px;
-    margin-bottom: 20px;
-}
-
-.stat h2 {
+  }
+  
+  .x {
+    /* 20x */
+    width: 149px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--NavBar-active-font-color);
+    
+  }
+  
+  .tech {
+    /* Faster Technology */
+    width: 149px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--NavBar-active-font-color);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  
+  }
+  .Av{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Support {
+    /* Support */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 4px;
+    width: 188px;
+    height: 111px;
+    border-left: 1px solid var(--Foot-color);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  /* .stat h2 {
     font-size: 2rem;
     margin: 0;
 }
@@ -107,13 +280,28 @@ p {
 .stat p {
     font-size: 1rem;
     color: #666;
-}
+} */
 
 .imageContent {
     position: relative;
     max-width: 500px;
     flex: 1;
-    transform: scaleX(-1);
+   
+    /* transform: scaleX(-1); */
+}
+
+.Woman{
+width: 406px;
+height: 425px;
+margin-top: 0px;
+padding-top: 0px;
+left: 1290px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
 }
 
 .floatingBadges {
@@ -128,14 +316,15 @@ p {
 
 /* Badge with Memoji */
 .badgeWithMemoji {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     background: white;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .badge {
     font-weight: bold;
@@ -157,7 +346,7 @@ p {
     position: relative;
     right: -15px;
     top: 80%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -178,6 +367,12 @@ p {
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
@@ -201,7 +396,7 @@ p {
 @media (max-width: 768px) {
     .hero {
         padding: 40px 20px;
-        margin-top: 60px; /* Adjust margin for smaller screens */
+        margin-top: 0px; /* Adjust margin for smaller screens */
     }
 
     .heroContent {
@@ -214,7 +409,7 @@ p {
         max-width: 100%;
     }
 
-    .h1 {
+    .x {
         font-size: 2rem;
     }
 
@@ -243,34 +438,148 @@ p {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 20px;
-        margin-top: 10px; /* Further reduce margin for smallest screens */
+         padding: 20px;
+        margin: 0px;
+        background-image: none;
+       
+       
+         /* Further reduce margin for smallest screens */
     }
 
+ 
+
     .heroContent {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: start; */
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+       
+       
     }
 
     .textContent {
-        max-width: 100%;
+        width: 100%;
+
+       
     }
 
-    h1 {
-        font-size: 1.75rem;
+    h1{
+        font-size: 22px;
+        width: 100%;
+        text-align: start;
+         margin-bottom: 0px;
+       
+    }
+   
+    .textContent{
+        width: 100%;
+        padding-top:0px;
+        /* display: flex;
+        flex-direction: column; */
+        flex-wrap: wrap;
+       
+        
+    }
+    .hero_left{
+        padding-left: 0px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        /* width: 100%; */
+       
     }
 
     p {
-        font-size: 1rem;
+        font-size: 18px;
+        width: 100%;
+       padding-top: 10px;
+       /* text-align: start; */
     }
 
+    .appButtons {
+        display: flex;
+        flex-direction: row;
+        
+    }
     .appButtons img {
-        width: 120px;
-    }
+        width: 100px;
 
-    .imageContent {
-        max-width: 90%;
     }
+    .subtext{
+        width: 100%;
+        display: flex;
+        padding-left: 0px;
+    }
+    .hero_offer{
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        gap: 0px;
+        
+
+
+    }
+    
+        
+      .fast{
+        width: 20px;
+
+      }  
+   
+    .Support
+    {
+       
+    
+        display: flex;  
+        flex-direction: row;
+     
+        text-align: center;
+        /* flex-wrap: wrap; */
+        border: none;
+      
+    }
+    .x{
+        font-size: 20px;
+        text-align: start;
+        /* width: 100%; */
+        /* background-color: aqua; */
+    }
+    .tech{
+        text-align: center;
+        font-size: 16px;
+        /* width: 100%; */
+        
+    }
+    
+    .Av{
+        
+            display: flex;
+            flex-direction: row;
+          flex-wrap: wrap;
+         
+        }
+
+  
+.Woman{
+    margin-top: -30px;
+  height: auto;
+  width: 300px;
+  /* margin-top: 0px; */
+
+}
+.image_side{
+    margin-top: -200px;
+    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 160px;
+}
+
+    
 
     .floatingBadges {
         display: none; /* Hide floating badges on the smallest screens */

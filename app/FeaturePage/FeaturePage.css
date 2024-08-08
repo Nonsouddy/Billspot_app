@@ -1,32 +1,37 @@
-.featuresSection {
-  padding: 40px 20px;
-  text-align: center;
-  
-}
-
-.headerContainer {
-  margin-bottom: 40px;
-}
-
-.featuresHeader {
-  display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 32px;
-gap: 10px;
-width: 126px;
-height: 27px;
-margin-left: calc(45% - 100px/2);
-top: 65px;
-background: linear-gradient(89.31deg, var(--Button-background-color)1.69%, var(--Button-background-color2) 99.86%);
-border-radius: 25px;
-}
-
-.mainTitle {
+.FeatureSection {
+  /* Feature */
   width: 100%;
-  height: 44px;
-  padding-left: calc(50% - 754px/2 - 1px);
+  height: 2083px;
+  background: var(--natural-color);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-top: 100px;
+}
+
+.Feature {
+  /* section */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  width: 159px;
+  height: 27px;
+  margin-left: calc(49% - 100px/2);
+  margin-bottom: -20px;
+  background: linear-gradient(89.31deg, var(--Button-background-color)1.69%, var(--Button-background-color2) 99.86%);
+  border-radius: 25px;
+
+}
+
+.Explore {
+  /* Explore your Experience with Billspot App */
+  width: 100%;
+  height: auto;
+  /* padding-left: calc(50% - 754px/2 - 1px); */
   padding-top: 20px;
   font-family: 'Inter';
   font-style: normal;
@@ -39,52 +44,69 @@ border-radius: 25px;
   color: var(--Secondary-color);
 }
 
-.underline {
+.Explore span {
   color: var(--Button-background-color);
 }
 
-.mainDescription {
-    /* Manage all your financial transactions in one place. From money transfers to bill payments, Billspot covers all your needs. */
-width: 100%;
-height: 44px;
-/* padding-left: calc(50% - 581px/2 - 0.5px); */
-margin-top: -20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* display: flex; */
-align-items: center;
-text-align: center;
-color: var(--NavBar-inactive-font-color);
+.Mark {
+  /* Vector */
+  display: flex;
+  width: 190px;
+  height: auto;
+  margin-left: 822px;
+  margin-top: -6px;
+  color: var(--Secondary-color);
+  /* color: red; */
 }
 
-.featuresGrid {
+.ExploreSmallText {
+  /* Manage all your financial transactions in one place. From money transfers to bill payments, Billspot covers all your needs. */
+  width: 65%;
+  height: 44px;
+  padding-left: calc(50% - 581px/2 - 0.5px);
+  margin-top: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: var(--NavBar-inactive-font-color);
+}
+
+.Feature_fill {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  /* width: 100px; */
+  width: 100px;
   padding-left: 215.50px;
-  width: 100%;
-  flex: 1 1 300px;
+
+
+
 }
 
-.featureItem {
-  flex: 1 1 300px;
-  /* max-width: 320px; */
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+.Feature_offer {
   display: flex;
   flex-direction: column;
 
 }
 
-.featureItem:hover {
-  transform: scale(1.05);
+.Feature_card {
+  /* Card */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 26px;
+  /* position: absolute; */
+  /* width: 499px; */
+  height: 648px;
+
+  padding-top: 61px;
 }
+
 .Feature_card_details {
   display: flex;
   flex-direction: column;
@@ -97,42 +119,350 @@ color: var(--NavBar-inactive-font-color);
   order: 1;
   flex-grow: 0;
 }
-.Mark {
-  /* Vector */
-  width: 196px !important; 
-  padding-left: 100px;
-  margin-top: -20px;
-  color: var(--Secondary-color);
-}
-  
-  
 
-
-.featureItem h2 {
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-
-.featureItem p {
-  font-size: 16px;
-  color: #666;
-}
-
-.image {
-  max-width: 100%;
+.Feature_card_offer {
+  /* Airtime Recharge */
+  width: 420px;
   height: auto;
-  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* display: flex; */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--Secondary-color);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.moreFeatures a {
-  display: inline-block;
-  margin-top: 30px;
+.Feature_card_offer_step {
+  /* Easily recharge your mobile phone with just a few taps. Stay connected without the hassle, anytime, anywhere. */
+  width: 420px;
+  height: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-  color: #1a73e8;
-  text-decoration: none;
+  line-height: 22px;
+  text-align: flex-start;
+  color: var(--NavBar-inactive-font-color);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.moreFeatures a:hover {
-  text-decoration: underline;
+.Card_img {
+  width: 400px;
+  height: 528px;
+  /* background: #E9F4FF; */
+  border-radius: 38px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Feature_card_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  /* width: 499px; */
+  height: 648px;
+  left: 761px;
+  padding-top: 320px;
+}
+
+.Feature_card_3 {
+  /* Card */
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* padding: 0px; */
+  gap: 26px;
+  width: 499px;
+  /* height: 670px; */
+  padding-top: 61px;
+  margin-top: -30px;
+}
+
+.Card_img1 {
+  width: 400px;
+  height: auto;
+  border-radius: 38px;
+  flex-grow: 0;
+  padding-top: 100px;
+}
+
+.Card_img2 {
+  width: 400px;
+  height: auto;
+  border-radius: 38px;
+  flex-grow: 0;
+  padding-top: 300px;
+}
+
+.Feature_More a {
+  /* +10 More Features */
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding-left: 280px;
+  margin-top: 200px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background: linear-gradient(89.31deg, var(--Button-background-color) 1.69%, var(--Button-background-color2)99.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .FeatureSection {
+    /* Feature */
+    width: 100%;
+    height: 2083px;
+    background: var(--natural-color);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 100px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .FeatureSection {
+  /* Feature */
+  width: 100%;
+  height: 2083px;
+  background: var(--natural-color);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-top: 100px;
+}
+
+
+
+  .textContent {
+    max-width: 100%;
+  }
+
+  .x {
+    font-size: 2rem;
+  }
+
+  .imageContent {
+    max-width: 80%;
+    transform: scaleX(1);
+    margin-top: 20px;
+  }
+
+  .floatingBadges {
+    top: 40%;
+    right: auto;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .memojiContainer {
+    top: auto;
+    left: auto;
+    bottom: 20%;
+    right: 0;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .FeatureSection{
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+  }
+
+  .Feature_fill {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+   
+ 
+  }
+ 
+  .Feature_fill img{
+    width: 300px;
+    padding: 0px;
+    height: auto;
+    /* margin-left:10px; */
+   
+    
+   
+  }
+
+  .Feature_card_offer {
+    font-size: 1.7rem;
+    width: 300px;
+
+  }
+  .Feature_card_offer_step {
+    font-size: 1rem;
+    text-align: center;
+    width: 300px;
+
+  }
+  .Explore{
+    font-size: 1.3rem;
+    
+  }
+  .Explore span{
+    padding-top: -10px;
+    
+  }
+  .ExploreSmallText{
+    width: 100%;
+    font-size:1rem ;
+    margin-top: -10px;
+  }
+ 
+.Feature_card_3
+{
+  margin-top: -130px;
+}
+.Feature_card_2{
+  margin-top: -300px;
+  height: auto;
+
+}
+
+
+.Feature_More a{
+  font-size: 1.7rem;
+  padding-left: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: -70px;
+  margin-bottom: 30px;
+
+}
+
+  .hero_left {
+    padding-left: 0px;
+
+    overflow: hidden;
+    flex-wrap: wrap;
+
+  }
+
+  p {
+    font-size: 18px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: start;
+  }
+
+  .appButtons {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .appButtons img {
+    width: 100px;
+
+  }
+
+  .subtext {
+    width: 100%;
+    display: flex;
+    padding-left: 0px;
+  }
+
+  .hero_offer {
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1rem;
+    /* padding-left: 50px; */
+    flex-wrap: wrap;
+    padding-left: center;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .fast {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .Support {
+
+
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    text-align: center;
+    flex-wrap: wrap;
+
+  }
+
+  .x {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tech {
+    text-align: center;
+    font-size: 16px;
+    /* width: 100%; */
+
+  }
+
+  .Av {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imageContent {
+    /* max-width: 90%; */
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    margin-right: 200px;
+  }
+
+  .image_side {
+    width: 100%;
+  }
+
+  .floatingBadges {
+    display: none;
+    /* Hide floating badges on the smallest screens */
+  }
 }

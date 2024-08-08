@@ -1,3 +1,5 @@
+
+
 :root{
   --NavBar-background-color: #F5F5F5;
   --NavBar-active-font-color: #02224B;
@@ -16,12 +18,7 @@
   --cashback-color:#7F3E3B;
   --daily-reward-color:#9D7700;
   --Footer-link-color:#EFF1F3;
-
-
-
-
-
-  --hero-background-color: rgba(255, 255, 255, 0.27);
+--hero-background-color: rgba(255, 255, 255, 0.27);
 
 }
 .logo{
@@ -188,7 +185,7 @@ body, html {
 } */
 
 /* Responsive Adjustments */
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .HeroTitle {
       font-size: 2.5rem;
   }
@@ -217,9 +214,9 @@ body, html {
   .Feature_More {
       font-size: 1.25rem;
   }
-} */
+}
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .HeroSection {
       padding: 6rem 1rem 3rem;
   }
@@ -253,7 +250,7 @@ body, html {
   .Feature_More {
       font-size: 1rem;
   }
-} */
+}
 
 
 
