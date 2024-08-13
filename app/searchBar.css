@@ -27,10 +27,20 @@ flex-grow: 0;
     cursor: pointer;
   
   }
-  .bb{
+  /* .bb{
     display: flex;
     flex-direction:reverse;
     width: 20px;
+    background-color: red;
+
+  } */
+  @media (max-width: 480px) {
+    .search-bar{
+      width: 100%;
+
+
+    }
+
 
   }
 

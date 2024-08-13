@@ -29,8 +29,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 50px;
+   padding-top: 10px;
+    gap: 40px;
     width: auto;
     height: 50px;
 }
@@ -179,6 +179,9 @@
 }
 
 @media (max-width: 480px) {
+    .NavBar{
+        height: 20% !important; 
+    }
     .NavBar_section {
         justify-content: space-between; /* Ensure logo and hamburger are on opposite ends */
     }

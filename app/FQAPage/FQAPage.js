@@ -37,11 +37,11 @@ function FQAPage() {
                     
 
                 </div>
-                <div className='More_section'>
+                {/* <div className='More_section'>
                         <div>More</div>
                         <div><AiFillCaretDown /></div>
 
-                    </div>
+                    </div> */}
             </div>
         </section>
     )

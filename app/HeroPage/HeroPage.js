@@ -3,12 +3,13 @@ import './HeroPage.css';
 import appstore from '../Svgs/Apple.svg';
 import playstore from '../Svgs/Google.svg';
 import woman from '../Image/woman.png'
-import recieved from '../Svgs/recieved.jpg'
-import memoji1 from '../Svgs/memoji1.jpg'
-import memoji2 from '../Svgs/memoji2.jpg'
-import memoji3 from '../Svgs/memoji3.jpg'
-import memoji4 from '../Svgs/memoji4.jpg'
-import memoji5 from '../Svgs/memoji5.jpg'
+import emoji1 from "../Image/emoji1.png"
+import emoji2 from "../Image/emoji2.png"
+import emoji3 from "../Image/emoji3.png"
+import emoji4 from "../Image/emoji4.png"
+import emoji5 from "../Image/emoji5.png"
+import emoji6 from "../Image/emoji6.png"
+
 
 export default function HeroPage() {
   return (
@@ -49,22 +50,43 @@ export default function HeroPage() {
         </div>
         <div className='imageContent'>
           <div className='image_side'>
-            <Image className='Woman' src={woman} alt="woman" />
-            {/* <div className='floatingBadges'>
-              <div className='badgeWithMemoji'>
-                <Image className='memojii' id='memoji4' src={memoji4} alt='memoji4' width={30} height={30} />
-                <div className='badge'> Received </div>
+            {/* <Image className='Woman' src={woman} alt="woman" /> */}
+
+            <div className='emoji_section1'>
+              <div className='emoj_6'>
+                <Image className='emoj6' src={emoji6} alt="emoji" />
               </div>
-              <div className='badgeWithMemoji'>
-                <div className='badge' id="badge10k" > +10k Users </div>
-                <Image className='memojii' src={memoji5} alt='memoji5' width={30} height={30} />
+              <div className='emoji_1'>
+                <Image className='emoji1' src={emoji1} alt="emoji" />
               </div>
-            </div> */}
-            {/* <div className='memojiContainer'>
-              <Image src={memoji1} alt="Memoji 1" width={50} height={50} />
-              <Image src={memoji2} alt="Memoji 2" width={50} height={50} />
-              <Image src={memoji3} alt="Memoji 3" width={50} height={50} />
-            </div> */}
+
+            </div>
+            <div className='emoji_section2'>
+              <div className='emoji_2' >
+                <Image className='emoji2' src={emoji2} alt="emoji" />
+              </div>
+              <div className='emoji_4' >
+                <Image className='emoji4' src={emoji4} alt="emoji" />
+              </div>
+            </div>
+            <div className='emoji_section3'>
+              <div className='emoji_5'>
+                <Image className='emoji5' src={emoji5} alt="emoji" />
+              </div>
+              <div className='emoji_3'>
+                <Image className='emoji3' src={emoji3} alt="emoji" />
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>
