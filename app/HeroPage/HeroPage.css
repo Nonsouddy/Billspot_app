@@ -454,20 +454,17 @@ height: 101px;
 
 @media (max-width: 480px) {
     .hero {
-    margin-top: 0px;
-       
-        /* margin: 0px !important; */
-       
-
-        /* Further reduce margin for smallest screens */
+    /* height:  auto!important; */
+    margin: 0px !important;
+    /* Further reduce margin for smallest screens */
     }
 
     .heroContent {
         display: flex;
         flex-direction: column;
         /* align-items: start; */
-        margin: 0px;
-        padding: 5%;
+        margin-top: -55%;
+       padding: 5%;
         gap: 0px;
         text-align: start;
         /* height: -10px !important; */
