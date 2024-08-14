@@ -82,15 +82,12 @@ margin-bottom: 20px;
 
 
 .badge1 {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 10px;
     gap: 10px;
     width: 159px;
     height: 27px;
-    background: linear-gradient(89.31deg, #6175FC 1.69%, #4CB2F8 99.86%);
+    background: linear-gradient(89.31deg, var( --Button-background-color) 1.69%, var( --Button-background-color2) 99.86%);
     border-radius: 25px;
     color: var(--natural-color);
     display: flex;
@@ -457,8 +454,9 @@ height: 101px;
 
 @media (max-width: 480px) {
     .hero {
-        padding: 5%;
-        margin: 0px !important;
+    margin-top: 0px;
+       
+        /* margin: 0px !important; */
        
 
         /* Further reduce margin for smallest screens */
@@ -469,8 +467,9 @@ height: 101px;
         flex-direction: column;
         /* align-items: start; */
         margin: 0px;
-        padding: 0px;
+        padding: 5%;
         gap: 0px;
+        text-align: start;
         /* height: -10px !important; */
     }
 
