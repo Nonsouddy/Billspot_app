@@ -309,6 +309,8 @@
     padding: 10%;
     width: 80% !important;
     margin-bottom: 30px;
+    /* text-align: center; */
+    /* column-gap: 20%; */
    
  
   }
@@ -327,8 +329,9 @@
   }
 
   .Feature_card_offer {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 180%;
+   
 
   }
   .Feature_card_offer_step {
@@ -368,11 +371,12 @@
   margin-top: -130%;
   width: 100% !important;
   justify-content: center;
+ 
 }
-/* .Feature_card_3 img
-{
-  width: 130% !important; 
-} */
+.Card_img1,
+.Card_img2{
+  margin-top: 30%;
+}
 
 .Feature_card_2{
   margin-top: -130%;
