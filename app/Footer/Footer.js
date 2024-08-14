@@ -30,6 +30,7 @@ function Footer() {
             </div>
 
           </div>
+          <div className='FooterLink_section'>
           <div className='FooterLink'>
             <h2>Quick Links</h2>
             <a href=''><div> Home</div></a>
@@ -46,6 +47,7 @@ function Footer() {
             <a href='/privacy'><div>Privacy</div></a>
             <a href='/terms'><div>Terms of services</div></a>
 
+          </div>
           </div>
 
 
