@@ -10,7 +10,7 @@ import Vector from '../Svgs/Vector.svg'
 
 function FQAPage() {
     return (
-        <section className='FQA'>
+        <section className='FQA' id='Faq'>
             <div>
                 <div className='FQA_Title'>
                     <div className='FQA_bigText'>Frequently Asked Questions (FAQ)</div>

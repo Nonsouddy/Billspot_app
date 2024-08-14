@@ -9,7 +9,7 @@ import Group1 from '../Image/Vector.png';
 
 const Feature = () => {
   return (
-    <section className='FeatureSection'>
+    <section className='FeatureSection' id='Feature'>
         <div>
           <div className='Feature'>Features</div>
           <div className='Explore'>Explore your Experience with <span>Billspot App</span> </div>

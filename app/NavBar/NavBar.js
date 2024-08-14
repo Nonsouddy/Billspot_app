@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
-import '../page.css';
-import './NavBar.css';
-import Logo from '../Svgs/Logo.svg';
+import Image from "next/image";
+import React, { useState } from "react";
+import "../page.css";
+import "./NavBar.css";
+import Logo from "../Svgs/Logo.svg";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,11 +18,20 @@ function NavBar() {
           <div>
             <Image className="logo" src={Logo} alt="" />
           </div>
-          <div className={`NavBar_Links ${ isOpen ? 'open' : ''}`}>
+          <div className={`NavBar_Links ${isOpen ? "open" : ""}`}>
             <div className="NavBar_Link_details">
-              <div className="Home"><a href="#">Home</a></div>
-              <div className="features"><a href="#">Features</a></div>
-              <div className="features"><a href="#">Help</a></div>
+              <div className="Home">
+                <a href="/">Home</a>
+              </div>
+              <div className="features">
+                <a href="/#Feature">Features</a>
+              </div>
+              <div className="features">
+                <a href="#">Help</a>
+              </div>
+              <div className="features">
+                <a href="/#Faq">FAQ</a>
+              </div>
             </div>
             <button className="NavBar_button">Download</button>
           </div>

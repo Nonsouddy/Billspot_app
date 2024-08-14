@@ -1,0 +1,16 @@
+li {
+  font-size: 18px;
+  line-height: 30px;
+  height: 90px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.band {
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+  line-height: 30px;
+  height: 40px;
+  margin-bottom: 20px;
+}

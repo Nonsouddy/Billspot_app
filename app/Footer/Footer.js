@@ -42,9 +42,9 @@ function Footer() {
           <div className='FooterLink'>
             <h2>Company</h2>
             <a href=''><div>About Us</div></a>
-            <a href=''><div>Careers</div></a>
-            <a href=''><div>Businesses</div></a>
-            <a href=''><div>Terms of services</div></a>
+            <a href='#'><div>Careers</div></a>
+            <a href='/privacy'><div>Privacy</div></a>
+            <a href='/terms'><div>Terms of services</div></a>
 
           </div>
 
