@@ -40,11 +40,15 @@ function Footer() {
           </div>
 
           <div className='FooterLink'>
-            <h2>Company</h2>
-            <a href=''><div>About Us</div></a>
-            <a href=''><div>Careers</div></a>
-            <a href=''><div>Businesses</div></a>
-            <a href=''><div>Terms of services</div></a>
+            <h2>Contact</h2>
+            <a href=''><div>Tel: +234 (0)816 710 6811</div></a>
+            <a href=''><div>Email: support@usebillspot.ng,
+              <br/>usebillspot@gmail.com</div></a>
+            <a href=''><div>Address: Block C, 
+            Behind Mobil Filling <br/> Station,
+             Off Summit Road,Off Old <br/>Secretariat,
+             Asaba, Delta State</div></a>
+    
 
           </div>
           </div>
