@@ -4,12 +4,11 @@ import './Footer.css'
 import Logo2 from '../Svgs/Logo2.svg'
 import Apple from '../Svgs/Apple.svg'
 import Google from '../Svgs/Google.svg'
-
-
 import x from '../Svgs/X.svg'
 import Whatsapp from '../Svgs/Whatsapp.svg'
 import Instagram from '../Svgs/Instagram.svg'
-import messenger from '../Svgs/messenger.svg'
+import facebook from '../Svgs/FaceBook.svg'
+import linkedin from '../Svgs/Linkedin.svg'
 
 function Footer() {
   return (
@@ -59,7 +58,8 @@ function Footer() {
             <div className='FooterSocials'>
               <a href=''> <Image className='WhatsApp' src={Whatsapp} alt='' /></a>
               <a href=''> <Image className='WhatsApp' src={Instagram} alt='' /></a>
-              <a href=''> <Image className='WhatsApp' src={messenger} alt='' /></a>
+              <a href=''> <Image className='WhatsApp' src={facebook} alt='' /></a>
+              <a href=''> <Image className='WhatsApp' src={linkedin} alt='' /></a>
               <a href=''> <Image className='WhatsApp' src={x} alt='' /></a>
             </div>
 

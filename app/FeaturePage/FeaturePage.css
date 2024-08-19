@@ -331,7 +331,9 @@
 
   .Feature_card_offer {
     font-size: 1.2rem;
-    width: 180%;
+    /* width: 180%; */
+    line-height: 24px;
+    text-align: start;
    
 
   }
@@ -374,9 +376,14 @@
   justify-content: center;
  
 }
-.Card_img1,
+.Card_img1{
+  margin-top: 30%;
+  margin-bottom: 10%;
+  
+}
 .Card_img2{
   margin-top: 30%;
+ 
 }
 
 .Feature_card_2{
