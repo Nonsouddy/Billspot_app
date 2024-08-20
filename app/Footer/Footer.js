@@ -4,12 +4,11 @@ import './Footer.css'
 import Logo2 from '../Svgs/Logo2.svg'
 import Apple from '../Svgs/Apple.svg'
 import Google from '../Svgs/Google.svg'
-
-
 import x from '../Svgs/X.svg'
 import Whatsapp from '../Svgs/Whatsapp.svg'
 import Instagram from '../Svgs/Instagram.svg'
-import messenger from '../Svgs/messenger.svg'
+import facebook from '../Svgs/FaceBook.svg'
+import linkedin from '../Svgs/Linkedin.svg'
 
 function Footer() {
   return (
@@ -41,11 +40,15 @@ function Footer() {
           </div>
 
           <div className='FooterLink'>
-            <h2>Company</h2>
-            <a href=''><div>About Us</div></a>
-            <a href='#'><div>Careers</div></a>
-            <a href='/privacy'><div>Privacy</div></a>
-            <a href='/terms'><div>Terms of services</div></a>
+            <h2>Contact</h2>
+            <a href=''><div>Tel: +234 (0)816 710 6811</div></a>
+            <a href=''><div>Email: support@usebillspot.ng,
+              <br/>usebillspot@gmail.com</div></a>
+            <a href=''><div>Address: Block C, 
+            Behind Mobil Filling <br/> Station,
+             Off Summit Road,Off Old <br/>Secretariat,
+             Asaba, Delta State</div></a>
+    
 
           </div>
           </div>
@@ -59,7 +62,8 @@ function Footer() {
             <div className='FooterSocials'>
               <a href=''> <Image className='WhatsApp' src={Whatsapp} alt='' /></a>
               <a href=''> <Image className='WhatsApp' src={Instagram} alt='' /></a>
-              <a href=''> <Image className='WhatsApp' src={messenger} alt='' /></a>
+              <a href=''> <Image className='WhatsApp' src={facebook} alt='' /></a>
+              <a href=''> <Image className='WhatsApp' src={linkedin} alt='' /></a>
               <a href=''> <Image className='WhatsApp' src={x} alt='' /></a>
             </div>
 
