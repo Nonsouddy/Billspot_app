@@ -22,7 +22,7 @@ function NavBar() {
             <div className="NavBar_Link_details">
               <div className="Home"><a href="#">Home</a></div>
               <div className="features"><a href="#">Features</a></div>
-              <div className="features"><a href="#">Help</a></div>
+              {/* <div className="features"><a href="#">Help</a></div> */}
             </div>
             <button className="NavBar_button">Download</button>
           </div>
