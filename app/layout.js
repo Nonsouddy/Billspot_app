@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link rel="shortcut icon" href="logo.png" />
+      <link rel="shortcut icon" href="/static/logo.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
