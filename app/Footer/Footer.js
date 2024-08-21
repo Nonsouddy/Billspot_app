@@ -33,19 +33,19 @@ function Footer() {
           <div className='FooterLink_section'>
           <div className='FooterLink'>
             <h2>Quick Links</h2>
-            <div><a href=''>Home</a></div>
-            <div><a href=''>Feature</a></div>
-            <div><a href=''>FAQ</a></div>
-            <div> <a href=''>Contact Us</a></div>
+            <div><a href='/'>Home</a></div>
+            <div><a href='/#Feature'>Feature</a></div>
+            <div><a href='/#Faq'>FAQ</a></div>
+            {/* <div> <a href=''>Contact Us</a></div> */}
 
           </div>
 
           <div className='FooterLink'>
             <h2>Contact</h2>
-            <div><a href=''>Tel: +234 (0)816 710 6811</a></div>
-            <div><a href=''>Email:support@usebillspot.ng,
+            <div><a href='#'>Tel: +234 (0)816 710 6811</a></div>
+            <div><a href='#'>Email:support@usebillspot.ng,
               <br/>usebillspot@gmail.com</a></div>
-            <div> <a href=''>Address: Block C, 
+            <div> <a href='#'>Address: Block C, 
             Behind Mobil Filling <br/> Station,
              Off Summit Road,Off Old <br/>Secretariat,
              Asaba,Delta State</a></div>
