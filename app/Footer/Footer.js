@@ -43,7 +43,7 @@ function Footer() {
           <div className='FooterLink'>
             <h2>Contact</h2>
             <div><a href='#'>Tel: +234 (0)816 710 6811</a></div>
-            <div><a href='#'>Email:support@usebillspot.ng,
+            <div><a href='#'>Email: support@usebillspot.ng,
               <br/>usebillspot@gmail.com</a></div>
             <div> <a href='#'>Address: Block C, 
             Behind Mobil Filling <br/> Station,
