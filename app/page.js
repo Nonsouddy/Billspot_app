@@ -18,7 +18,7 @@ const page = () => {
       <Feature />
       <GuidePage />
       <BenefitPage />
-      <FQAPage />
+      <FQAPage defaultLength="4" />
       <NewsPage />
       <Footer />
     </div>

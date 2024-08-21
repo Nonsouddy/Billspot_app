@@ -52,7 +52,7 @@ function Footer() {
           <div className="FooterLink">
             <h2>Contact</h2>
             <div>
-              <a href="#">Tel: +234 (0)816 710 6811</a>
+              <a href="#">Tel: +234(0)8167106811</a>
             </div>
             <div>
               <a href="#">
@@ -67,9 +67,10 @@ function Footer() {
             <div>
               {" "}
               <a href="#">
-                Address: Block C, Behind Mobil Filling <br /> Station, Off
-                Summit Road,Off Old <br />
-                Secretariat, Asaba,Delta State
+                Address: Block C,&nbsp; Behind Mobil Filling 
+                 Station, &nbsp;Off
+                Summit Road, &nbsp;Off Old
+                Secretariat, &nbsp;  Asaba, <br /> Delta State
               </a>
             </div>
           </div>
@@ -82,23 +83,24 @@ function Footer() {
             © 2024 Billspot. All rights reserved.
           </div>
           <div className="FooterSocials">
-            <a href="">
+            <a href="http://api.whatsapp.com/send?phone=2348167106811">
               {" "}
               <Image className="WhatsApp" src={Whatsapp} alt="" />
             </a>
-            <a href="">
+            <a href="http://instagram.com/billspothq">
               {" "}
               <Image className="WhatsApp" src={Instagram} alt="" />
-            </a>
-            <a href="">
+            </a> 
+
+            <a href="http://facebook.com/billspothq">
               {" "}
               <Image className="WhatsApp" src={facebook} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/company/billspot-hq">
               {" "}
               <Image className="WhatsApp" src={linkedin} alt="" />
             </a>
-            <a href="">
+            <a href="http://x.com/billspot_hq">
               {" "}
               <Image className="WhatsApp" src={x} alt="" />
             </a>

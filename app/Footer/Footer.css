@@ -89,7 +89,7 @@
 .FooterLink {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    /* gap: 16px; */
     
 }
 
@@ -169,7 +169,9 @@
     }
 
     .FooterLink {
-        max-width: 200px;
+        width: 160px;
+        text-align: justify;
+        /* max-width: 200px; */
     }
 }
 
@@ -209,7 +211,7 @@
     .FooterAboutText {
         font-size: 16px;
         line-height: 20px;
-        text-align: start;
+        text-align: justify;
     }
 
     .GetApp {
