@@ -22,6 +22,7 @@ function FQAPage({ defaultLength = 5, search }) {
       let c = count + parseInt(defaultLength);
       setCount(parseInt(c));
       setCountLeft(parseInt(questions.length - c));
+      setAllowedFaqs(questions.slice(0, parseInt(c)))
     }
   };
 
@@ -34,6 +35,7 @@ function FQAPage({ defaultLength = 5, search }) {
     }
     setCount(newCount);
     setCountLeft(questions.length - newCount);
+    setAllowedFaqs(questions.slice(0, parseInt(newCount)))
   };
 
   const handleSearch = (search) => {
