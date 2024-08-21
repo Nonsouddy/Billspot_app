@@ -26,9 +26,9 @@ function NavBar() {
               <div className="features">
                 <a href="/#Feature">Features</a>
               </div>
-              <div className="features">
+              {/* <div className="features">
                 <a href="#">Help</a>
-              </div>
+              </div> */}
               <div className="features">
                 <a href="/#Faq">FAQ</a>
               </div>

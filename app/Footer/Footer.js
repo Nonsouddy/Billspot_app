@@ -1,3 +1,4 @@
+        "use client"
 import Image from 'next/image'
 import '../page.css'
 import './Footer.css'
@@ -32,25 +33,27 @@ function Footer() {
           <div className='FooterLink_section'>
           <div className='FooterLink'>
             <h2>Quick Links</h2>
-            <a href=''><div> Home</div></a>
-            <a href=''><div>Feature</div></a>
-            <a href=''><div>FAQ</div></a>
-            <a href=''><div>Contact Us</div></a>
+            <div><a href=''>Home</a></div>
+            <div><a href=''>Feature</a></div>
+            <div><a href=''>FAQ</a></div>
+            <div> <a href=''>Contact Us</a></div>
 
           </div>
 
           <div className='FooterLink'>
             <h2>Contact</h2>
-            <a href=''><div>Tel: +234 (0)816 710 6811</div></a>
-            <a href=''><div>Email: support@usebillspot.ng,
-              <br/>usebillspot@gmail.com</div></a>
-            <a href=''><div>Address: Block C, 
+            <div><a href=''>Tel: +234 (0)816 710 6811</a></div>
+            <div><a href=''>Email:support@usebillspot.ng,
+              <br/>usebillspot@gmail.com</a></div>
+            <div> <a href=''>Address: Block C, 
             Behind Mobil Filling <br/> Station,
              Off Summit Road,Off Old <br/>Secretariat,
-             Asaba, Delta State</div></a>
+             Asaba,Delta State</a></div>
+    
     
 
           </div>
+         
           </div>
 
 
