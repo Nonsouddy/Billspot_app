@@ -10,8 +10,13 @@ import Whatsapp from "../Svgs/Whatsapp.svg";
 import Instagram from "../Svgs/Instagram.svg";
 import facebook from "../Svgs/FaceBook.svg";
 import linkedin from "../Svgs/Linkedin.svg";
+import { Router } from "next/router";
+import Link from "next/link";
 
 function Footer() {
+  const triggerUrl = (url) => {
+    Router.push(url);
+  };
   return (
     <footer className="Footer">
       <div className="FooterSection">
@@ -30,7 +35,12 @@ function Footer() {
             <div className="GetApp">Get the app</div>
             <div className="FooterStore">
               <Image src={Apple} alt="" />
-              <Image src={Google} alt="" />
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.billspot.billspot"
+                target="_blank"
+              >
+                <Image src={Google} alt="" />
+              </Link>
             </div>
           </div>
         </div>
@@ -55,22 +65,17 @@ function Footer() {
               <a href="#">Tel: +234(0)8167106811</a>
             </div>
             <div>
-              <a href="#">
-                Email: support@usebillspot.ng,
-              </a>
+              <a href="#">Email: support@usebillspot.ng,</a>
             </div>
             <div>
-              <a href="#">
-                usebillspot@gmail.com
-              </a>
+              <a href="#">usebillspot@gmail.com</a>
             </div>
             <div>
               {" "}
               <a href="#">
-                Address: Block C,&nbsp; Behind Mobil Filling 
-                 Station, &nbsp;Off
-                Summit Road, &nbsp;Off Old
-                Secretariat, &nbsp;  Asaba, <br /> Delta State
+                Address: Block C,&nbsp; Behind Mobil Filling Station, &nbsp;Off
+                Summit Road, &nbsp;Off Old Secretariat, &nbsp; Asaba, <br />{" "}
+                Delta State
               </a>
             </div>
           </div>
@@ -90,7 +95,7 @@ function Footer() {
             <a href="http://instagram.com/billspothq">
               {" "}
               <Image className="WhatsApp" src={Instagram} alt="" />
-            </a> 
+            </a>
 
             <a href="http://facebook.com/billspothq">
               {" "}
