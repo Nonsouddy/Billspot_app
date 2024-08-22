@@ -17,6 +17,11 @@ export const faqs =[
 
     },
     { id: 4,
+        question:'Where can I see my username',
+        answer:'You can view your username by navigating to the profile screen. Your username can be seen just below the name initials '
+
+    },
+    { id: 4,
         question:'I cant see my cashback on my home screen',
         answer:'Your cashback balance can be see on your home screen. If you can\'t see your cashback balance, kindly reach out to support'
 
