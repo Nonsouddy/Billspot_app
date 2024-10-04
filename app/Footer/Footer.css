@@ -219,6 +219,7 @@
     .FooterLink_section{
         display: flex;
         flex-direction: row;
+        /* width: 100%; */
     }
 
     .FooterLink h2 {
