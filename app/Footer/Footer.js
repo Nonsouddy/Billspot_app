@@ -47,13 +47,13 @@ function Footer() {
         <div className="FooterLink_section">
           <div className="FooterLink">
             <h2>Quick Links</h2>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="/">Home</a>
             </div>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="/#Feature">Feature</a>
             </div>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="/#Faq">FAQ</a>
             </div>
             {/* <div> <a href=''>Contact Us</a></div> */}
@@ -61,17 +61,16 @@ function Footer() {
 
           <div className="FooterLink">
             <h2>Contact</h2>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="#">Tel: +234(0)8167106811</a>
             </div>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="#">Email: support@usebillspot.ng,</a>
             </div>
-            <div>
+            <div style={{ width: "100%" }}>
               <a href="#">usebillspot@gmail.com</a>
             </div>
-            <div>
-              {" "}
+            <div style={{ width: "100%" }}>
               <a href="#">
                 Address: Block C,&nbsp; Behind Mobil Filling Station, &nbsp;Off
                 Summit Road, &nbsp;Off Old Secretariat, &nbsp; Asaba, <br />{" "}

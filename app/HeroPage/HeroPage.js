@@ -2,7 +2,6 @@ import Image from "next/image";
 import "./HeroPage.css";
 import appstore from "../Svgs/Apple.svg";
 import playstore from "../Svgs/Google.svg";
-import woman from "../Image/woman.png";
 import emoji1 from "../Image/emoji1.png";
 import emoji2 from "../Image/emoji2.png";
 import emoji3 from "../Image/emoji3.png";
@@ -31,17 +30,18 @@ export default function HeroPage() {
 
             <div className="appButtons">
               <Image src={appstore} alt="App Store" width={150} height={50} />
-              <Link
+              {/* <Link
                 href="https://play.google.com/store/apps/details?id=com.billspot.billspot"
                 target="_blank"
-              >
+                style={{ backgroundColor: 'red'}}
+              > */}
                 <Image
                   src={playstore}
                   alt="Google Play"
                   width={150}
                   height={50}
-                />
-              </Link>
+                ></Image>
+              {/* </Link> */}
             </div>
           </div>
           <p className="subtext">
