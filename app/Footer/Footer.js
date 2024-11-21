@@ -12,11 +12,16 @@ import facebook from "../Svgs/FaceBook.svg";
 import linkedin from "../Svgs/Linkedin.svg";
 import { Router } from "next/router";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 function Footer() {
-  const triggerUrl = (url) => {
-    Router.push(url);
-  };
+  const router = useRouter();
+
+  function openLink(url) {
+    if (url) {
+      router.push(url);
+    }
+  }
   return (
     <footer className="Footer">
       <div className="FooterSection">
@@ -35,12 +40,15 @@ function Footer() {
             <div className="GetApp">Get the app</div>
             <div className="FooterStore">
               <Image src={Apple} alt="" />
-              <Link
-                href="https://play.google.com/store/apps/details?id=com.billspot.billspot"
-                target="_blank"
-              >
-                <Image src={Google} alt="" />
-              </Link>
+              <Image
+                src={Google}
+                alt=""
+                onClick={() =>
+                  openLink(
+                    "https://play.google.com/store/apps/details?id=com.ravenheight.billspot&hl=en"
+                  )
+                }
+              />
             </div>
           </div>
         </div>
