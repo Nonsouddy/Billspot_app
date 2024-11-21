@@ -9,8 +9,16 @@ import emoji4 from "../Image/emoji4.png";
 import emoji5 from "../Image/emoji5.png";
 import emoji6 from "../Image/emoji6.png";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function HeroPage() {
+  const router = useRouter();
+
+  function openLink(url) {
+    if (url) {
+      router.push(url);
+    }
+  }
   return (
     <div className="hero">
       <div className="heroContent">
@@ -29,19 +37,24 @@ export default function HeroPage() {
             </p>
 
             <div className="appButtons">
-              <Image src={appstore} alt="App Store" width={150} height={50} />
-              {/* <Link
-                href="https://play.google.com/store/apps/details?id=com.billspot.billspot"
-                target="_blank"
-                style={{ backgroundColor: 'red'}}
-              > */}
-                <Image
-                  src={playstore}
-                  alt="Google Play"
-                  width={150}
-                  height={50}
-                ></Image>
-              {/* </Link> */}
+              <Image
+                src={appstore}
+                alt="App Store"
+                width={150}
+                height={50}
+                onClick={() => openLink()}
+              />
+              <Image
+                src={playstore}
+                alt="Google Play"
+                width={150}
+                height={50}
+                onClick={() =>
+                  openLink(
+                    "https://play.google.com/store/apps/details?id=com.ravenheight.billspot&hl=en"
+                  )
+                }
+              />
             </div>
           </div>
           <p className="subtext">
